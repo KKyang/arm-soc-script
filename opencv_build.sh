@@ -2,6 +2,9 @@
 
 # install build dependency 
 sudo apt-get build-dep opencv -y
+sudo apt-get install libgstreamer0.10-0 libgstreamer0.10-dev \
+ gstreamer0.10-tools gstreamer0.10-plugins-base libgstreamer-plugins-base0.10-dev \
+ gstreamer0.10-plugins-good gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad 
 sudo apt-get install libtbb-dev python3-dev python3-numpy -y
 
 # get source

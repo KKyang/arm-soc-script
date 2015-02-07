@@ -5,8 +5,8 @@ sudo apt-get -y build-dep opencv
 # gstreamer
 sudo apt-get -y install libgstreamer0.10-0 libgstreamer0.10-dev \
 gstreamer0.10-tools gstreamer0.10-plugins-base libgstreamer-plugins-base0.10-dev \
-gstreamer0.10-plugins-good gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad -y
-sudo apt-get install libtbb-dev python3-dev python3-numpy
+gstreamer0.10-plugins-good gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad
+sudo apt-get -y install libtbb-dev python3-dev python3-numpy
 
 # get source
 wget https://github.com/Itseez/opencv/archive/3.0.0-beta.zip

@@ -2,12 +2,12 @@
 
 sudo mv /etc/apt/sources.list /etc/apt/sources.list.bak
 
-echo "deb http://free.nchc.org.tw/debain testing main contrib no-free 
-deb-src http://free.nchc.org.tw/debain testing main contrib no-free
-deb http://free.nchc.org.tw/debain testing-updates main contrib no-free 
-deb-src http://free.nchc.org.tw/debain testing-updates main contrib no-free
-deb http://free.nchc.org.tw/debain-security testing/updates main contrib no-free 
-deb-src http://free.nchc.org.tw/debain-security testing/updates  main contrib no-free
+echo "deb http://free.nchc.org.tw/debian/ testing main contrib no-free
+deb-src http://free.nchc.org.tw/debian/ testing main contrib no-free
+deb http://free.nchc.org.tw/debian/ testing-updates main contrib no-free
+deb-src http://free.nchc.org.tw/debian/ testing-updates main contrib no-free
+deb http://free.nchc.org.tw/debian-security/ testing/updates main contrib no-free
+deb-src http://free.nchc.org.tw/debian-security/ testing/updates  main contrib no-free
 " |  sudo tee /etc/apt/source.list
 
 

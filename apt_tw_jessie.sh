@@ -1,6 +1,6 @@
 #! /bin/sh
 
-sudo mv /etc/apt/source.list /etc/apt/source.list.bak
+sudo mv /etc/apt/sources.list /etc/apt/sources.list.bak
 
 echo "deb http://free.nchc.org.tw/debain testing main contrib no-free 
 deb-src http://free.nchc.org.tw/debain testing main contrib no-free

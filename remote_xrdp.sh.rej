@@ -1,0 +1,5 @@
+diff a/remote_xrdp.sh b/remote_xrdp.sh	(rejected hunks)
+@@ -0,0 +1,2 @@
++#! /bin/sh
++sudo apt-get install tighvncserver xfont-base xrdp
+\ No newline at end of file

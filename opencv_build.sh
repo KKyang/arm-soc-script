@@ -12,9 +12,9 @@ gstreamer0.10-plugins-good gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad
 # tbb support
 sudo apt-get -y install libtbb-dev
 # python2 support
-sudo apt-get -y python2-dev python-numpy
+sudo apt-get -y install python2-dev python-numpy
 # python3 support
-sudo apt-get -y python3-dev python3-numpy
+sudo apt-get -y install python3-dev python3-numpy
 
 # get source
 wget https://github.com/Itseez/opencv/archive/3.0.0-beta.zip

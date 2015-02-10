@@ -10,7 +10,7 @@ sudo apt-get -y install libgstreamer0.10-0 libgstreamer0.10-dev \
 gstreamer0.10-tools gstreamer0.10-plugins-base libgstreamer-plugins-base0.10-dev \
 gstreamer0.10-plugins-good gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad
 # tbb support
-sudo apt-get -y install libtbb-dev 
+sudo apt-get -y install libtbb-dev
 # python2 support
 sudo apt-get -y python2-dev python-numpy
 # python3 support

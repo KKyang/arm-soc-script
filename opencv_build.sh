@@ -2,12 +2,7 @@
 
 # install build dependency 
 sudo apt-get -y build-dep opencv
-sudo apt-get -y install build-essential checkinstall cmake pkg-config yasm
-sudo apt-get -y install v4l-utils
-# gstreamer
-sudo apt-get -y install libgstreamer0.10-0 libgstreamer0.10-dev \
-gstreamer0.10-tools gstreamer0.10-plugins-base libgstreamer-plugins-base0.10-dev \
-gstreamer0.10-plugins-good gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad
+sudo apt-get -y install build-essential checkinstall cmake pkg-config 
 # tbb support
 sudo apt-get -y install libtbb-dev
 # python2 support

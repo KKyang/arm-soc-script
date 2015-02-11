@@ -3,7 +3,6 @@
 # install build dependency 
 sudo apt-get -y build-dep opencv
 sudo apt-get -y install build-essential checkinstall cmake pkg-config yasm
-sudo apt-get -y install libxine2-dev libfaac-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev
 sudo apt-get -y install x264 v4l-utils libx264-dev
 # gstreamer
 sudo apt-get -y install libgstreamer0.10-0 libgstreamer0.10-dev \

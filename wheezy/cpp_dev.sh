@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 
 # build env
 sudo apt-get -y install build-essential git cmake vim 

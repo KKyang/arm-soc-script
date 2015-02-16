@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 
 # install build dependency 
 sudo apt-get -y build-dep opencv
@@ -24,6 +24,6 @@ cd build
 cmake -DCMAKE_BUILD_TYPE=RELEASE -DBUILD_DOCS=OFF -DBUILD_EXAMPLES=OFF \
  -DBUILD_PERF_TESTS=OFF -DBUILD_TESTS=OFF -DBUILD_opencv_java=OFF \
  -DWITH_QT=OFF -DWITH_TBB=ON -DWITH_OPENGL=ON \
- -DPYTHON_EXECUTABLE=/usr/bin/python2.7 ../ > cmake_log
+ -DPYTHON_EXECUTABLE=/usr/bin/python2.7 ../ > cmake.log
 make -j2 > build.log
 #sudo make install
